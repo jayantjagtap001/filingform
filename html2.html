@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>TechFusion 2024 From</h2>
+
+    <form action="">
+        <div class="Personald">
+            <p><b><u>1.Personal Details:</u></b></p>
+            <label for="fname">Enter Your First Name :</label>
+            <input type="text" id="fname" name="fname" required>
+            <br><br>
+            <label for="lname">Enter Your Last Name :</label>
+            <input type="text" id="lname" name="lname" required>
+            <br><br>
+            <label for="email">Enter Your Last Name :</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="phone">Enter Your Last Name :</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="ProfileType">
+            <p><b><u><b>2.Profile Type:</b></u> </b></p>
+            <label for="phone">Profile Type:</label>
+            <input type="radio" id="prof" name="prof" value="prof" required>
+            <label for="Prof">Professional</label>
+
+            <input type="radio" id="student" name="prof" value="student" required>
+            <label for="student">Student</label>
+
+            <input type="radio" id="Enthusiast" name="prof" value="Enthusiast" required>
+            <label for="Enthusiast">Enthusiast</label>
+        </div>
+        <div class="area">
+            <p><b><u>3.Areas of Interest:</u></b></p>
+            <label for="Interest">Areas of Interest:</label>
+            <select name="Interest" id="Interest" required>
+                <option value="">Select option</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Cloud Computing">Cloud Computing</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+            </select>
+        </div>
+        <div class="Workshops">
+            <p><b><u>4.Workshops:</u></b></p>
+            <input type="checkbox" name="Workshop1" id="Workshops[]" value="Intro to Quantum Computing">
+            <label for="Workshop1">Intro to Quantum Computing</label>
+            <br>
+            <input type="checkbox" name="Workshop2" id="Workshops[]" value="Virtual Reality on the Web">
+            <label for="Workshop2">Virtual Reality on the Web</label>
+            <br>
+            <input type="checkbox" name="Workshop3" id="Workshops[]" value="Cybersecurity 101">
+            <label for="Workshop3">Cybersecurity 101</label>
+            <br>
+            <input type="checkbox" name="Workshop4" id="Workshops[]" value="AI in Medical Imaging">
+            <label for="Workshop4">AI in Medical Imaging</label>
+        </div>
+        <div class="AdditionalInformation">
+            <p><b><u>5.Additional Information:</u></b></p>
+            <label for="Additional_info">Additional Information(Max 300 characters): </label>
+            <textarea name="Additional_info" id="Additional_info" maxlength="300"></textarea>
+        </div>
+        <div class="day">
+            <p><b><u>Preferred Days:</u></b></p>
+            <input type="checkbox" id="day1" name="PreferredDays[]" value="day1">
+            <label for="day1"> Day 1</label>
+
+            <input type="checkbox" id="day2" name="PreferredDays[]" value="day2">
+            <label for="day2"> Day 2</label>
+
+            <input type="checkbox" id="day3" name="PreferredDays[]" value="day3">
+            <label for="day3"> Day 3</label>
+        </div>
+
+        <div class="meal">
+            <p><b><u>Meal Preference:</u></b></p>
+            <input type="radio" id="vegetarian" name="Meal_Preference" value="vegetarian" required>
+            <label for="vegetarian">Vegetarian</label>
+
+            <input type="radio" id="Non-Vegetarian" name="Meal_Preference" value="Non-Vegetarian" required>
+            <label for="Non-Vegetarian">Non-Vegetarian</label>
+
+            <input type="radio" id="Vegan" name="Meal_Preference" value="Vegan" required>
+            <label for="Vegan">Vegan</label>
+
+            <input type="radio" id="No Preference" name="Meal_Preference" value="No Preference" required>
+            <label for="No Preference">No Preference</label>
+        </div>
+
+        <div class="turm">
+            <p><b><u>Terms & Conditions:</u></b></p>
+            <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">I Agree to the Terms & Conditions </label>
+        </div>
+        <br>
+        <button type="submit"> Submit</button>
+    </form>
+</body>
+</html>
